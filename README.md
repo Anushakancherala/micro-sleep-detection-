@@ -1,6 +1,6 @@
 # Micro-Sleep Detection System 🚗😴
 
-This project detects driver drowsiness (micro-sleep) in real time using computer vision techniques.
+This project detects driver drowsiness (micro-sleep) in real time using computer vision techniques to help prevent road accidents.
 
 ## 🚀 Features
 - Real-time face detection using MediaPipe
@@ -17,4 +17,19 @@ This project detects driver drowsiness (micro-sleep) in real time using computer
 
 ## ▶ How to Run
 
-Install dependencies:
+### 1️⃣ Install dependencies
+```bash
+pip install opencv-python mediapipe numpy
+```
+
+### 2️⃣ Run the program
+```bash
+python micro_sleep.py
+```
+
+## 📌 Use Case
+Helps monitor driver alertness and provides real-time warning when drowsiness is detected.
+
+## 👩‍💻 Author
+Anusha Kancharala
+
